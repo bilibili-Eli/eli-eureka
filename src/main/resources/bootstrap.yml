@@ -3,6 +3,6 @@ spring:
     name: eli-eureka
   cloud:
     config:
-      uri: http://localhost:9000/
+      uri: http://172.0.0.1:9000/
       profile: dev
       label: master
